@@ -14,6 +14,8 @@ The [circuit for the LED Lights Receiver](Schematic_Mask_Lights_PCB.pdf) was the
 
 The PCB is stored in a [3D printed enclosure](https://cad.onshape.com/documents/9127cf46288eeb6dc56328e9/w/f2f425a857582dd788254ce1/e/b9644c77b763d9ce140f913f?renderMode=0&uiState=6640f95af08a9a25bbff4b10) and secured to the mask using [velcro straps](https://www.aliexpress.us/item/3256806755948519.html). The LED matrix was connected to the mask using [lockwire](https://www.aliexpress.us/item/3256803467852184.html), though there may be better alternatives and I worry about sharp edges despite dulling the edge afterwards. I use [magnetic usb chargers](https://www.aliexpress.us/item/3256805633947608.html) to protect the Wemos USB connection and hopefully prolong its life.
 
+![Mask_Lights_PCB.jpg](Mask_Lights_PCB.jpg)
+
 ## Relay Receiver ##
 
 I included the code [8266_Relay_Receiver](8266_Relay_Receiver). The code acts similarly to the mask receiver except a High/Low signal is passed using the same receiver PCB at the Green and Red LED +/- connections. This lets someone to connect relays to the PCB and actuate repeater lights using the same platform, enclosures and boards.

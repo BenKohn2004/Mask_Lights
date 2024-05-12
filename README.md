@@ -24,4 +24,6 @@ I included the code [8266_Relay_Receiver](8266_Relay_Receiver). The code acts si
 
 Some thoughts going forward, all the data from the box, mostly, is transmitted and the 8 by 8 matrix uses individually addressable LEDs, so more can be conveyed than solely the score lights. For example there could be indication of the score or a count down when the timer is about to run out.
 
+Since the Receiver is effectively part of the mask and most masks are owned by a single person, it would be reasonably easy for a fencer to customize their lights making the lighting display unique to them. This can then be further simplified by adjusting the code so that the actual code to light the LEDs is external to the main program and therefore easily changed or swapped out.
+
 This can of course can be adapted to other scoring machines as well. It would be reasonable to use the other repositories on this Github to transmit both St. George Machines and the Virtual Scoring Machine.

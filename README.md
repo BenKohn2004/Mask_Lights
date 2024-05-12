@@ -21,3 +21,5 @@ I included the code [8266_Relay_Receiver](8266_Relay_Receiver). The code acts si
 ## Future Development ##
 
 Some thoughts going forward, all the data from the box, mostly, is transmitted and the 8 by 8 matrix uses individually addressable LEDs, so more can be conveyed than solely the score lights. For example there could be indication of the score or a count down when the timer is about to run expire.
+
+This can of course can be adapted to other scoring machines as well. It would be reasonable to use the other repositories on this Github to transmit both St. George Machines and the Virtual Scoring Machine.

@@ -22,6 +22,8 @@ I included the code [8266_Relay_Receiver](8266_Relay_Receiver). The code acts si
 
 ## Future Development ##
 
+Sleep Mode: The charging circuit is set up so that power is applied through the Arduino when charging. The power switch only isolates the Arduino from power when the Arduino is powered from the battery. One goal will be to create a sleep mode so that when charging, the Arduino will be less active.
+
 Some thoughts going forward, all the data from the box, mostly, is transmitted and the 8 by 8 matrix uses individually addressable LEDs, so more can be conveyed than solely the score lights. For example there could be indication of the score or a count down when the timer is about to run out.
 
 Since the Receiver is effectively part of the mask and most masks are owned by a single person, it would be reasonably easy for a fencer to customize their lights making the lighting display unique to them or could display their national colors. This can then be further simplified by adjusting the code so that the actual code to light the LEDs is external to the main program and therefore easily changed or swapped out.

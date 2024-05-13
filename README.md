@@ -32,6 +32,8 @@ Some thoughts going forward, all the data from the box, mostly, is transmitted a
 
 Sleep Mode: The charging circuit is set up so that power is applied through the Arduino when charging. The power switch only isolates the Arduino from power when the Arduino is powered from the battery. One goal will be to create a sleep mode so that when charging, the Arduino will be less active.
 
+Add code to momentarily light the LEDs when changing between which box is being monitored. This will allow to test the LEDs and feel reassuring that the system works.
+
 Since the Receiver is effectively part of the mask and most masks are owned by a single person, it would be reasonably easy for a fencer to customize their lights making the lighting display unique to them or could display their national colors. This can then be further simplified by adjusting the code so that the actual code to light the LEDs is external to the main program and therefore easily changed or swapped out.
 
 This can of course can be adapted to other scoring machines as well. It would be reasonable to use the other repositories on this Github to transmit both St. George Machines and the Virtual Scoring Machine.

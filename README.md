@@ -24,7 +24,7 @@ The PCB is stored in a [3D printed enclosure](https://cad.onshape.com/documents/
 
 ## Relay Receiver ##
 
-I included the code [8266_Relay_Receiver](8266_Relay_Receiver). The code acts similarly to the mask receiver except a High/Low signal is passed using the same receiver PCB at the Green and Red LED +/- connections. This lets someone to connect relays to the PCB and actuate repeater lights using the same platform, enclosures and boards.
+I included the code [8266_Relay_Receiver](8266_Relay_Receiver). The code acts similarly to the mask receiver except a High/Low signal is passed using the same receiver PCB at the Green and Red LED +/- connections. This allows someone to connect relays to the PCB and actuate repeater lights using the same platform, enclosures and boards.
 
 ## Future Development ##
 

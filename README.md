@@ -2,7 +2,7 @@
 
 This project is a simple, inexpensive and scalable method of relaying the Red and Green scoring lights from a [Favero Full-Arm-05](https://www.favero.com/en2_fencing_sport_electronic_scoreboard_fencing_signalling_equipment_apparatus_for_foil_sword_epee_sabre-29-17.html) scoring machine to LED lights attached to the interior sides of a fencing mask.
 
-![Lights_Snapshot_1](Lights_Snapshot_1)
+![Lights_Snapshot_1.png](Lights_Snapshot_1.png)
 
 ## Parser and Transmitter ##
 

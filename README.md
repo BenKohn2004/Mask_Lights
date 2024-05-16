@@ -2,6 +2,8 @@
 
 This project is a simple, inexpensive and scalable method of relaying the Red and Green scoring lights from a [Favero Full-Arm-05](https://www.favero.com/en2_fencing_sport_electronic_scoreboard_fencing_signalling_equipment_apparatus_for_foil_sword_epee_sabre-29-17.html) scoring machine to LED lights attached to the interior sides of a fencing mask.
 
+![Lights_Snapshot_1](Lights_Snapshot_1)
+
 ## Parser and Transmitter ##
 
 The output data from the Favero using an [RJ11](https://www.aliexpress.us/item/2251832602517821.html) Connector to an [Arduino ESP8266 WeMos D1 Mini](https://www.aliexpress.us/item/3256805831695231.html) using the wiring [Favero Serial Parser schematic](Schematic_Favero-Light-Relays.pdf) with the exception that the LED Relay Control was left off for this build. The Arduino code [8266 Parser and Transmitter Favero](8266_Parser_and_Transmitter_Favero) was then uploaded the Wemos. The only change that should be needed to the code is line 4, "Favero_One", which is the scoring machine's name. The code should function either way, but it will be easier to use if each scoring machine has a unique name. The code uses the Wemos' MAC address to differentiate between scoring machines, but the human interface uses the name defined by line 4. The code used for the Transmitter is [8266_Parser_and_Transmitter](8266_Parser_and_Transmitter).

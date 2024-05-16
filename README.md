@@ -1,6 +1,6 @@
 # Mask Lights #
 
-This project is a simple, inexpensive and scalable method of relaying the Red and Green scoring lights from a [Favero Full-Arm-05](https://www.favero.com/en2_fencing_sport_electronic_scoreboard_fencing_signalling_equipment_apparatus_for_foil_sword_epee_sabre-29-17.html) scoring machine to LED lights attached to the interior sides of a fencing mask. The cost for a single light setup for a mask is probably about $15 USD.
+This project is a simple, inexpensive and scalable method of relaying the Red and Green scoring lights from a [Favero Full-Arm-05](https://www.favero.com/en2_fencing_sport_electronic_scoreboard_fencing_signalling_equipment_apparatus_for_foil_sword_epee_sabre-29-17.html) scoring machine to LED lights attached to the interior sides of a fencing mask. The cost for a single light setup for a mask is probably about $15 USD and the transmitter cost is about $2 USD.
 
 ![Lights_Snapshot_2.png](Lights_Snapshot_2.png)
 

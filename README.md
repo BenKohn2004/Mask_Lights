@@ -8,6 +8,8 @@ This project is a simple, inexpensive and scalable method of relaying the Red an
 
 The output data from the Favero using an [RJ11](https://www.aliexpress.us/item/2251832602517821.html) Connector to an [Arduino ESP8266 WeMos D1 Mini](https://www.aliexpress.us/item/3256805831695231.html) using the wiring [Favero Serial Parser schematic](Schematic_Favero-Light-Relays.pdf) with the exception that the LED Relay Control was left off for this build. The Arduino code [8266 Parser and Transmitter Favero](8266_Parser_and_Transmitter_Favero) was then uploaded the Wemos. The only change that should be needed to the code is line 4, "Favero_One", which is the scoring machine's name. The code should function either way, but it will be easier to use if each scoring machine has a unique name. The code uses the Wemos' MAC address to differentiate between scoring machines, but the human interface uses the name defined by line 4. The code used for the Transmitter is [8266_Parser_and_Transmitter](8266_Parser_and_Transmitter).
 
+![Mask_Red_Light.jpg](Mask_Red_Light.jpg)
+
 ## Receiver ##
 
 The code used for the Receiver is [8266_Receiver_Mask_Lights](8266_Receiver_Mask_Lights).

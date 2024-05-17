@@ -18,6 +18,8 @@ The [circuit for the LED Lights Receiver](Schematic_Mask_Lights_PCB.pdf) was the
 
 To operate the interface, the OLED SSD1306 will initially display "Select Box". Pressing the button will cycle to first detected transmitter and will display the "Green" lights. Pressing the button again will receive from the same transmitter but will now display the "Red" lights. Pressing the button again will now cycle to the next transmitter and cycle through "Green"/"Red" until the list is exhausted and start over at "Select Box". For a large number of transmitters this can become tedious, at present this is not designed for more than a handful of transmitters.
 
+The Battery life seems to be adequate. I have not run the receiver till failure yet, but it seems to last at least for a full night of fencing, afterwards I usually charge the battery through the USB connection on the receiver.
+
 Also, the Battery connection markings are reversed and the + and - are marked backwards from what they actually are on the circuit. If you connect the battery as indicated, as one would reasonably do, the PCB will start to heat up and smoke. 
 
 There are also slightly different designs of the SSD1306, one of the designs has the Vcc and GND reversed from the one used in the PCB design; I would recommend using the SSD1306 that lines up with the PCB. Similarly, the pins for the power switch also line up poorly, so they require mechanical inducement to fit, though it does make switch feel more snug in the PCB. 

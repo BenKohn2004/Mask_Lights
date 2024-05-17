@@ -22,7 +22,7 @@ The Battery life seems to be adequate. I have not run the receiver till failure 
 
 Also, the Battery connection markings are reversed and the + and - are marked backwards from what they actually are on the circuit. If you connect the battery as indicated, as one would reasonably do, the PCB will start to heat up and smoke. 
 
-There are also slightly different designs of the SSD1306, one of the designs has the Vcc and GND reversed from the one used in the PCB design; I would recommend using the SSD1306 that lines up with the PCB. Similarly, the pins for the power switch also line up poorly, so they require mechanical inducement to fit, though it does make switch feel more snug in the PCB. 
+There are also slightly different designs of the SSD1306, one of the designs has the Vcc and GND reversed from the one used in the PCB design; I would recommend using the SSD1306 that lines up with the PCB. Similarly, the pins for the power switch also line up poorly, so they require mechanical inducement to fit, though it does make the switch feel more snug in the PCB. 
 
 The Pairing LED is also redundant. There was initially a goal to pair with other Arduinos before transmitting the data but I decided it would be simpler and more straightforward to broadcast the scoring machine data instead of first establishing a paired connection.
 
